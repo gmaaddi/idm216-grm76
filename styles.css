@@ -147,3 +147,52 @@ p {
     color: #463A6C;
     font-family: 'Poppins', sans-serif;
 }
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.hero {
+    background-color: #463A6C;
+    text-align: center;
+    color: white;
+    height: 293px;
+    margin: 0;
+    padding: 0;
+    background-image: url("/graphics/honeycomb-hero.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right 35% bottom 35%;
+}
+
+.hero-title {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.hero-btn {
+    height: 69.56px;
+    width: 272px;
+    color: #463A6C;
+    border-radius: 36px;
+}
+
+.menu-btn {
+    border-color: #FFCE71;
+    background-color: #FFF1D9;
+    margin-bottom: 16px;
+}
+
+.login-btn {
+    border-color: #FFF1D9;
+    background-color: #EFC372;
+    margin-bottom: 32px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
