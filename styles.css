@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 header {
     background-color: #EFC372;
     height: 81px;
@@ -7,7 +10,6 @@ header {
     margin: 0;
     padding: 0;
 
-    height: 46px;
     display: flex;
     justify-content: space-around;
 }
@@ -125,4 +127,23 @@ nav {
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+.hours {
+    background-color: #FFF1D9;
+    text-align: center;
+    margin: 0;
+    height: 57.44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/graphics/bee-path.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 18px;
+    color: #463A6C;
+    font-family: 'Poppins', sans-serif;
 }
