@@ -86,7 +86,7 @@ nav {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #463A6C;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
@@ -108,7 +108,7 @@ nav {
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background: #FFF1D9;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   
@@ -142,16 +142,28 @@ nav {
     background-repeat: no-repeat;
 }
 
-p {
-    font-size: 18px;
-    color: #463A6C;
+* {
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #463A6C;
+}
+
+h3 {
+    font-size: 20px;
+    color: #463A6C;
+}
+
+p {
+    font-size: 14px;
+    color: #463A6C;
 }
 
 .hero {
@@ -195,4 +207,39 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.menu-item-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item1 {
+    margin-right: 32px;
+}
+
+.menu-item-text {
+    max-width: 124px;
+}
+
+footer {
+    background-color: #FFF1D9;
+    padding: 24px 0;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px;
+}
+
+a {
+    text-decoration: none;
 }
