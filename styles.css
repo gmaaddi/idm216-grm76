@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 header {
     background-color: #EFC372;
@@ -152,18 +151,19 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
-    color: #463A6C;
+    font-size: 20px;
 }
 
 h3 {
-    font-size: 20px;
-    color: #463A6C;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
 }
 
 p {
     font-size: 14px;
-    color: #463A6C;
 }
 
 .hero {
@@ -220,6 +220,7 @@ p {
 
 .menu-item-text {
     max-width: 124px;
+    color: black;
 }
 
 footer {
@@ -255,4 +256,88 @@ a {
 
 .progress-text {
     color: #463A6C;
+}
+
+.overlay {
+    background-color: #463A6C;
+    background-image: url(/graphics/honeycomb-item-overlay.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.close-btn {
+    float: right;
+    padding: 24px;
+}
+
+.food-img-overlay {
+    position: absolute;
+    z-index: 3;
+    top: 29px;
+    left: 38px;
+    margin: 0 auto;
+}
+
+.yellow-overlay {
+    position: absolute;
+    top: 107px;
+    margin-top: 108px;
+    background-color: #FFF1D9;
+    color: black;
+    padding-top: 80px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    border-radius: 20px;
+    /* padding: 24px; */
+}
+
+.special-instructions {
+    height: 126.17px;
+    width: 320px;
+}
+
+.add-order-btn {
+    width: 279px;
+    height: 54px;
+    background-color: #463A6C;
+    color: white;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.overlay-quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-quantity {
+    margin: 0 24px;
+}
+
+.overlay-total {
+    float: left;
+    margin-right: 132px;
+}
+
+.overlay-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.overlay-btn {
+    border: 1px solid #463A6C;
+    border-radius: 8px;
+    height: 23.83px;
+    width: 26.41px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
